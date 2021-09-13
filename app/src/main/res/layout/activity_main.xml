@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#673AB7">
+
+    <TextView
+        android:id="@+id/textTv"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_gravity="right"
+        android:background="#673AB7"
+        android:gravity="center|right"
+        android:paddingRight="4pt"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp" />
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt"
+            android:paddingTop="1pt">
+            >
+
+            <Button
+                android:id="@+id/button4AC"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="butClean"
+                android:text="AC" />
+
+            <Button
+                android:id="@+id/butprsontPlas"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="+/-" />
+
+            <Button
+                android:id="@+id/butPerson"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/buttonslash"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/teal_200"
+                android:backgroundTint="@color/teal_200"
+                android:onClick="butOpEvent"
+                android:text="/" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/buttonmultplay"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/teal_200"
+                android:onClick="butOpEvent"
+                android:text="*" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/buttonminas"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/teal_200"
+                android:onClick="butOpEvent"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1pt">">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/but2"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/but3"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="#9F8989"
+                android:onClick="buttonEvent"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/buttonplas"
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/teal_200"
+                android:onClick="butOpEvent"
+                android:text="+" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1pt"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="188dp"
+            android:layout_height="30pt"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#9F8989"
+            android:onClick="buttonEvent"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/buttonpoint"
+            android:layout_width="99dp"
+            android:layout_height="30pt"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#9F8989"
+            android:onClick="buttonEvent"
+            android:text="." />
+
+        <Button
+            android:id="@+id/buttonequal"
+            android:layout_width="106dp"
+            android:layout_height="30pt"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@color/teal_200"
+            android:onClick="buEqualEvent"
+            android:text="=" />
+    </LinearLayout>
+</LinearLayout>
